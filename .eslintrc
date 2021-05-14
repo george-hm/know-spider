@@ -1,0 +1,76 @@
+{
+    "env": {
+        "node": true
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "extends": [
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "@typescript-eslint/indent": [
+            2,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "@typescript-eslint/no-unused-vars": 1,
+        "arrow-parens": [
+            2,
+            "as-needed"
+        ],
+        "class-methods-use-this": 0,
+        "func-names": 0,
+        "guard-for-in": 0,
+        "import/extensions": 0,
+        "import/no-unresolved": 0,
+        "indent": 0,
+        "max-len": [
+            2,
+            {
+                "code": 9999
+            }
+        ],
+        "new-cap": 0,
+        "no-cond-assign": [
+            2,
+            "except-parens"
+        ],
+        "no-console": 0,
+        "no-continue": 0,
+        "no-param-reassign": [
+            1,
+            {
+                "props": false
+            }
+        ],
+        "no-plusplus": 0,
+        "no-restricted-syntax": 0,
+        "no-return-await": 0,
+        "no-underscore-dangle": 0,
+        "no-unused-vars": 0,
+        "no-useless-escape": 0,
+        "object-shorthand": [
+            2,
+            "properties"
+        ],
+        "operator-linebreak": [
+            2,
+            "after"
+        ],
+        "padded-blocks": 1,
+        "quotes": [
+            2,
+            "single"
+        ],
+        "radix": 0,
+        "semi": 2
+    }
+}
