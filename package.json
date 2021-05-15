@@ -9,7 +9,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "know-parser": "^1.3.2",
+    "parse-domain": "^3.0.3"
   },
   "devDependencies": {
     "@types/node": "^12.12.54",
@@ -20,6 +23,6 @@
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
     "jest": "^26.6.3",
-    "typescript": "^3.9.7"
+    "typescript": "^4.2.4"
   }
 }
